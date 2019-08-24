@@ -6,9 +6,9 @@ const randomName = require('../lib/cmd/name');
 program.version('0.0.1');
 
 program
-  .command('name <gender> [amount]')
+  .command('name <gender> [number]')
   .option('-m, --middle', 'add a random middle name', false)
-  .description('Generate a random name for your NPC')
+  .description('Generate a number of random names for a specific gender')
   .action(randomName);
 
 program.parse(process.argv);
