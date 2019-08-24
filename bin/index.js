@@ -5,6 +5,7 @@ const package = require('../package');
 const terminal = require('../lib/util/terminal');
 const name = require('../lib/cmd/name');
 const phobia = require('../lib/cmd/phobia');
+const ocd = require('../lib/cmd/ocd');
 
 program.version(package.version);
 
@@ -17,8 +18,14 @@ program
 program
   .command('phobia')
   .option('-l, --list', 'show complete list of all phobias', false)
-  .description('Pick a random phobia or show a list of all phobias')
+  .description('Pick a random phobia or show a complete list')
   .action(terminal.ignoreArgs(phobia));
+
+program
+  .command('ocd')
+  .option('-l, --list', 'show complete list of all obsessive-compulsive disorders', false)
+  .description('Pick a random obsessive-compulsive disorder or show a complete list')
+  .action(terminal.ignoreArgs(ocd));
 
 program.parse(process.argv);
 
