@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const program = require('commander');
 const colors = require('colors');
-const randomName = require('../lib/random-name');
+const randomName = require('../lib/cmd/name');
 
 program.version('0.0.1');
 
