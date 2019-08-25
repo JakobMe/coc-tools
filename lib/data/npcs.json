@@ -119,18 +119,7 @@
         "Prachtbart",
         "wild"
       ],
-      "female": ["ohne"]
-    },
-    "Teint": {
-      "all": [
-        "leichenblass",
-        "blass",
-        "hell",
-        "durchschnittlich",
-        "gebräunt",
-        "braungebrannt",
-        "verbrannt"
-      ]
+      "female": []
     },
     "Attraktivität": {
       "all": [
