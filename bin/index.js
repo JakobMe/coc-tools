@@ -4,6 +4,7 @@ const colors = require('colors');
 const package = require('../package');
 const terminal = require('../lib/util/terminal');
 const name = require('../lib/cmd/name');
+const npc = require('../lib/cmd/npc');
 const phobia = require('../lib/cmd/phobia');
 const ocd = require('../lib/cmd/ocd');
 const roll = require('../lib/cmd/roll');
@@ -15,6 +16,11 @@ program
   .option('-m, --middle', 'add a random middle name', false)
   .description('Generate a number of random names for a specific gender')
   .action(name);
+
+program
+  .command('npc [gender]')
+  .description('Generate a random npc description')
+  .action(npc);
 
 program
   .command('phobia')

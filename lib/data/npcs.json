@@ -1,0 +1,193 @@
+{
+  "genders": {
+    "male": "männlich",
+    "female": "weiblich"
+  },
+  "props": {
+    "Alter": {
+      "all": [
+        "ca. 20",
+        "ca. 25",
+        "ca. 30",
+        "ca. 35",
+        "ca. 40",
+        "ca. 45",
+        "ca. 50",
+        "ca. 55",
+        "ca. 60",
+        "ca. 65",
+        "ca. 70",
+        "ca. 75"
+      ]
+    },
+    "Größe": {
+      "all": [
+        "sehr klein",
+        "klein",
+        "durchschnittlich",
+        "groß",
+        "sehr groß",
+        "riesig",
+        "gigantisch"
+      ]
+    },
+    "Gewicht": {
+      "all": [
+        "abgemagert",
+        "hager",
+        "dünn",
+        "athletisch",
+        "durchschnittlich",
+        "kräftig",
+        "muskulös",
+        "bullig",
+        "dicklich",
+        "übergewichtig",
+        "fett",
+        "fettleibig"
+      ]
+    },
+    "Augenfarbe": {
+      "all": [
+        "bernstein",
+        "grün",
+        "grünbraun",
+        "grau",
+        "blau",
+        "hellbraun",
+        "hellblau",
+        "blaugrün",
+        "braun"
+      ]
+    },
+    "Haarfarbe": {
+      "all": [
+        "weißblond",
+        "blond",
+        "dunkelblond",
+        "rot",
+        "rotblond",
+        "rotbraun",
+        "braun",
+        "hellbraun",
+        "dunkelbraun",
+        "schwarz"
+      ]
+    },
+    "Haarschnitt": {
+      "male": [
+        "Glatze",
+        "rasiert",
+        "kurz",
+        "mittellang",
+        "lockig",
+        "gekämmt",
+        "wild",
+        "zerzaust",
+        "lang",
+        "gegelt"
+      ],
+      "female": [
+        "kurz",
+        "mittellang",
+        "wellig",
+        "hochgesteckt",
+        "lockig",
+        "wild",
+        "zerzaust",
+        "lang",
+        "sehr lang",
+        "Zopf",
+        "Dutt"
+      ]
+    },
+    "Bart": {
+      "male": [
+        "glattrasiert",
+        "Stoppeln",
+        "Dreitagebart",
+        "Schnäuzer",
+        "Kinnbart",
+        "Goatee",
+        "Backenbart",
+        "Koteletten",
+        "Walross",
+        "Ziegenbart",
+        "Vollbart kurz",
+        "Vollbart lang",
+        "Holzfäller",
+        "Prachtbart",
+        "wild"
+      ],
+      "female": ["ohne"]
+    },
+    "Teint": {
+      "all": [
+        "leichenblass",
+        "blass",
+        "hell",
+        "durchschnittlich",
+        "gebräunt",
+        "braungebrannt",
+        "verbrannt"
+      ]
+    },
+    "Attraktivität": {
+      "all": [
+        "abstoßend",
+        "hässlich",
+        "unansehnlich",
+        "unterdurchschnittlich",
+        "durchschnittlich",
+        "überdurchschnittlich",
+        "normal",
+        "ansehnlich",
+        "anziehend",
+        "gutaussehend",
+        "sehr gutaussehend",
+        "extrem gutaussehend"
+      ]
+    },
+    "Laune": {
+      "all": [
+        "mies",
+        "verärgert",
+        "deprimiert",
+        "traurig",
+        "melancholisch",
+        "wütend",
+        "genervt",
+        "angespannt",
+        "gelangweilt",
+        "aufgeregt",
+        "nervös",
+        "neutral",
+        "entspannt",
+        "fröhlich",
+        "enthusiastisch",
+        "euphorisch",
+        "begeistert"
+      ]
+    },
+    "Interaktion": {
+      "all": [
+        "einsilbig",
+        "wortkart",
+        "verschlossen",
+        "introvertiert",
+        "desinteressiert",
+        "gleichgültig",
+        "neutral",
+        "offen",
+        "aufgeschlossen",
+        "freundlich",
+        "zuvorkommend",
+        "hilfsbereit",
+        "extrovertiert",
+        "redselig",
+        "verwirrt",
+        "plappernd"
+      ]
+    }
+  }
+}
