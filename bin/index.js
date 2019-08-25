@@ -6,6 +6,7 @@ const terminal = require('../lib/util/terminal');
 const name = require('../lib/cmd/name');
 const phobia = require('../lib/cmd/phobia');
 const ocd = require('../lib/cmd/ocd');
+const roll = require('../lib/cmd/roll');
 
 program.version(package.version);
 
@@ -26,6 +27,11 @@ program
   .option('-l, --list', 'show complete list of all obsessive-compulsive disorders', false)
   .description('Pick a random obsessive-compulsive disorder or show a complete list')
   .action(terminal.ignoreArgs(ocd));
+
+program
+  .command('roll')
+  .description('Make a combined d10 + d100 roll')
+  .action(terminal.ignoreArgs(roll));
 
 program.parse(process.argv);
 
