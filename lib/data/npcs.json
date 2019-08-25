@@ -162,6 +162,7 @@
       "all": [
         "einsilbig",
         "wortkart",
+        "herablassend",
         "verschlossen",
         "introvertiert",
         "desinteressiert",
@@ -172,10 +173,47 @@
         "freundlich",
         "zuvorkommend",
         "hilfsbereit",
+        "interessiert",
+        "neugierig",
+        "nachfragend",
         "extrovertiert",
         "redselig",
         "verwirrt",
-        "plappernd"
+        "plappernd",
+        "höflich",
+        "unhöflich",
+        "vorlaut",
+        "frech"
+      ]
+    },
+    "Besonderheiten": {
+      "all": [
+        "ohne",
+        "keine",
+        "nichts auffälliges",
+        "trägt eine Brille",
+        "raucht Pfeife",
+        "hat ein Tattoo",
+        "hat Narben",
+        "hat ein Piercing",
+        "riecht unangenehm",
+        "riecht angenehm",
+        "riecht nach Alkohol",
+        "hat Mundgeruch",
+        "sehr hohe Stimme",
+        "sehr tiefe Stimme",
+        "lispelt",
+        "stottert",
+        "ist erkältet",
+        "gestikuliert stark",
+        "ist ungepflegt",
+        "hat nervöse Finger",
+        "schielt leicht",
+        "ist auf einem Ohr taub",
+        "spricht sehr leise",
+        "spricht sehr laut",
+        "humpelt",
+        "hat fehlende Finger"
       ]
     }
   }
