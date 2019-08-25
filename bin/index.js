@@ -8,6 +8,7 @@ const npc = require('../lib/cmd/npc');
 const phobia = require('../lib/cmd/phobia');
 const ocd = require('../lib/cmd/ocd');
 const roll = require('../lib/cmd/roll');
+const insanity = require('../lib/cmd/insanity');
 
 program.version(package.version);
 
@@ -38,6 +39,12 @@ program
   .command('roll')
   .description('Make a combined d10 + d100 roll')
   .action(terminal.ignoreArgs(roll));
+
+program
+  .command('insanity')
+  .option('-e, --extended', 'use list of extended insanities', false)
+  .description('Pick a random insanity')
+  .action(terminal.ignoreArgs(insanity));
 
 program.parse(process.argv);
 
