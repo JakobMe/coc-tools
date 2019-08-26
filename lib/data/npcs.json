@@ -17,7 +17,8 @@
         "ca. 60",
         "ca. 65",
         "ca. 70",
-        "ca. 75"
+        "ca. 75",
+        "ca. 80"
       ]
     },
     "Größe": {
@@ -25,6 +26,8 @@
         "sehr klein",
         "klein",
         "durchschnittlich",
+        "normal",
+        "gewöhnlich",
         "groß",
         "sehr groß",
         "riesig",
@@ -37,13 +40,16 @@
         "hager",
         "dünn",
         "athletisch",
+        "sportlich",
+        "schlank",
+        "gewöhnlich",
         "durchschnittlich",
+        "normal",
         "kräftig",
         "muskulös",
         "bullig",
         "dicklich",
         "übergewichtig",
-        "fett",
         "fettleibig"
       ]
     },
@@ -76,9 +82,12 @@
     },
     "Haarschnitt": {
       "male": [
-        "Glatze",
+        "haarlos",
+        "ausgedünnt",
         "rasiert",
+        "sehr kurz",
         "kurz",
+        "gewöhnlich",
         "mittellang",
         "lockig",
         "gekämmt",
@@ -88,9 +97,11 @@
         "gegelt"
       ],
       "female": [
+        "sehr kurz",
         "kurz",
         "mittellang",
         "wellig",
+        "modisch",
         "hochgesteckt",
         "lockig",
         "wild",
@@ -98,6 +109,8 @@
         "lang",
         "sehr lang",
         "Zopf",
+        "Pony",
+        "Pferdeschwanz",
         "Dutt"
       ]
     },
@@ -128,8 +141,10 @@
         "unansehnlich",
         "unterdurchschnittlich",
         "durchschnittlich",
-        "überdurchschnittlich",
+        "gewöhnlich",
         "normal",
+        "unscheinbar",
+        "überdurchschnittlich",
         "ansehnlich",
         "anziehend",
         "gutaussehend",
@@ -141,21 +156,24 @@
       "all": [
         "mies",
         "verärgert",
-        "deprimiert",
         "traurig",
         "melancholisch",
-        "wütend",
         "genervt",
         "angespannt",
         "gelangweilt",
         "aufgeregt",
         "nervös",
         "neutral",
+        "gewöhnlich",
+        "normal",
+        "durchschnittlich",
         "entspannt",
         "fröhlich",
+        "froh",
+        "gutgelaunt",
+        "zufrieden",
         "enthusiastisch",
-        "euphorisch",
-        "begeistert"
+        "euphorisch"
       ]
     },
     "Interaktion": {
@@ -168,9 +186,13 @@
         "desinteressiert",
         "gleichgültig",
         "neutral",
+        "normal",
         "offen",
         "aufgeschlossen",
         "freundlich",
+        "nett",
+        "gewöhnlich",
+        "durchschnittlich",
         "zuvorkommend",
         "hilfsbereit",
         "interessiert",
@@ -179,17 +201,41 @@
         "extrovertiert",
         "redselig",
         "verwirrt",
+        "witzelnd",
         "plappernd",
+        "verspielt",
         "höflich",
         "unhöflich",
         "vorlaut",
         "frech"
       ]
     },
+    "Kompetenz": {
+      "all": [
+        "ahnungslos",
+        "unwissend",
+        "ungebildet",
+        "laienhaft",
+        "grundlegend",
+        "gewöhnlich",
+        "normal",
+        "durchschnittlich",
+        "Anfänger",
+        "kompetent",
+        "fortgeschritten",
+        "Experte",
+        "Profi",
+        "Meister",
+        "Koryphäe"
+      ]
+    },
     "Besonderheiten": {
       "all": [
         "ohne",
         "keine",
+        "nichts",
+        "gewöhnlich",
+        "unauffällig",
         "nichts auffälliges",
         "trägt eine Brille",
         "raucht Pfeife",
@@ -199,11 +245,13 @@
         "riecht unangenehm",
         "riecht angenehm",
         "riecht nach Alkohol",
+        "riecht nach Parfüm",
         "hat Mundgeruch",
         "sehr hohe Stimme",
         "sehr tiefe Stimme",
         "lispelt",
         "stottert",
+        "hat ein Glasauge",
         "ist erkältet",
         "gestikuliert stark",
         "ist ungepflegt",
