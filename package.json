@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "Command line tools for Call of Cthulhu",
   "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JakobMe/coc-tools.git"
+  },
   "bin": {
     "coc": "./bin/index.js"
   },
