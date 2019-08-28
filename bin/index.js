@@ -18,6 +18,7 @@ program
 
 program
   .command('npc [gender]')
+  .option('-s, --save', 'save last generated npc to desktop', false)
   .description('Generate a random npc description')
   .action(npcCommand.execute);
 
