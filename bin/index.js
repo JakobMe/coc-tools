@@ -13,36 +13,36 @@ const insanityCommand = require('../lib/command/insanity');
 program
   .command('name <gender> [number]')
   .option('-m, --middle', 'add a random middle name', false)
-  .description('Generate a number of random names for a specific gender')
+  .description('generate a number of random names for a specific gender')
   .action(nameCommand.execute);
 
 program
   .command('npc [gender]')
   .option('-s, --save', 'save last generated npc to desktop', false)
-  .description('Generate a random npc description')
+  .description('generate a random npc description')
   .action(npcCommand.execute);
 
 program
   .command('phobia')
   .option('-l, --list', 'show complete list of all phobias', false)
-  .description('Pick a random phobia or show a complete list')
+  .description('pick a random phobia or show a complete list')
   .action(terminal.ignoreArgs(phobiaCommand.execute));
 
 program
   .command('ocd')
   .option('-l, --list', 'show complete list of all obsessive-compulsive disorders', false)
-  .description('Pick a random obsessive-compulsive disorder or show a complete list')
+  .description('pick a random obsessive-compulsive disorder or show a complete list')
   .action(terminal.ignoreArgs(ocdCommand.execute));
 
 program
   .command('roll')
-  .description('Make a combined d10 + d100 roll')
+  .description('make a combined d10 + d100 roll')
   .action(terminal.ignoreArgs(rollCommand.execute));
 
 program
   .command('insanity')
   .option('-e, --extended', 'use list of extended insanities', false)
-  .description('Pick a random insanity')
+  .description('pick a random insanity')
   .action(terminal.ignoreArgs(insanityCommand.execute));
 
 program.version(package.version);
