@@ -4,7 +4,7 @@ describe('utility/numbers', () => {
   let counter;
 
   beforeEach(() => {
-    counter = [...Array(100).keys()];
+    counter = [...Array(10000).keys()];
   });
 
   test('randomInteger should return a number between min and max', () => {

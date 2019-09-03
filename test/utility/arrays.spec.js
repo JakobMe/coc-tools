@@ -6,7 +6,7 @@ describe('utility/arrays', () => {
   let numbers;
 
   beforeEach(() => {
-    counter = [...Array(100).keys()];
+    counter = [...Array(10000).keys()];
     numbers = [5, 17, 23, 9, 2, 7, 12];
     strings = ['lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consetetur'];
   });
